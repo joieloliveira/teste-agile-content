@@ -8,6 +8,7 @@ function Home() {
 
   const [tvshows, setTvshows] = useState([]);
   const [episodes, setEpisodes] = useState([]);
+  const [episodes2, setEpisodes2] = useState([]);
 
   const api = async (req, res) => {
     try {
